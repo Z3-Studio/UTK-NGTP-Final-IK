@@ -1,0 +1,24 @@
+{
+  "name": "com.z3.node-graph.final-ik",
+  "displayName": "Z3 NGTP Final IK",
+  "version": "0.1.0-alpha",
+  "description": "Node Graph Task Pack for Final IK in Unity",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/Z3-Studio/UTK-NGTP-Final-IK/blob/master/README.md",
+  "changelogUrl": "https://github.com/Z3-Studio/UTK-NGTP-Final-IK/blob/master/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Z3-Studio/UTK-NGTP-Final-IK/blob/master/LICENSE.md",
+  "license": "MIT",
+  "dependencies": {
+    "com.z3.node-graph": "0.1.0-beta"
+  },
+  "keywords": [
+    "Node Graph",
+    "Task Pack",
+    "Final IK",
+    "Unity"
+  ],
+  "author": {
+    "name": "Z3 Studio",
+    "url": "https://z3-studio.com/"
+  }
+}

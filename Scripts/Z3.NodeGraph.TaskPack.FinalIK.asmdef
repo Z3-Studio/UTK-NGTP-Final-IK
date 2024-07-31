@@ -1,0 +1,17 @@
+{
+    "name": "Z3.NodeGraph.TaskPack.FinalIK",
+    "rootNamespace": "Z3.NodeGraph.TaskPack.FinalIK",
+    "references": [
+        "GUID:6d4810c931e638d489b58e9b332f3fb9",
+        "GUID:65cb82271f3f0dd4eaad6e68e59b42a4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

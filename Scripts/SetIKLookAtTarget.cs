@@ -11,8 +11,8 @@ namespace Z3.NodeGraph.TaskPack.FinalIK
     public class SetIKLookAtTarget : ActionTask
     {
         [ParameterDefinition(AutoBindType.SelfBind)]
-        public Parameter<LookAtIK> lookAtIk;
-        public Parameter<Transform> target;
+        [SerializeField] private Parameter<LookAtIK> lookAtIk;
+        [SerializeField] private Parameter<Transform> target;
 
         public override string Info => $"{base.Info} = {target}";
 

@@ -11,8 +11,8 @@ namespace Z3.NodeGraph.TaskPack.FinalIK
     public class SetIKAimTarget : ActionTask
     {
         [ParameterDefinition(AutoBindType.SelfBind)]
-        public Parameter<AimIK> aimIk;
-        public Parameter<Transform> target;
+        [SerializeField] private Parameter<AimIK> aimIk;
+        [SerializeField] private Parameter<Transform> target;
 
         public override string Info => $"{base.Info} = {target}";
 

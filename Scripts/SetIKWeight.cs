@@ -11,13 +11,13 @@ namespace Z3.NodeGraph.TaskPack.FinalIK
     public class SetIKWeight : ActionTask
     {
         [ParameterDefinition(AutoBindType.SelfBind)]
-        public Parameter<IK> ik;
+        [SerializeField] private Parameter<IK> ik;
 
         public bool useSpeed = true;
         //[Slider(0f, 1f)]
-        public Parameter<float> weight;
+        [SerializeField] private Parameter<float> weight;
         //[ShowIf(nameof(useSpeed), 1)]
-        public Parameter<float> duration;
+        [SerializeField] private Parameter<float> duration;
 
         private float currentWeight;
 

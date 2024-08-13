@@ -38,7 +38,7 @@ namespace Z3.NodeGraph.TaskPack.FinalIK
 
         protected override void UpdateAction()
         {
-            currentWeight = Mathf.MoveTowards(currentWeight, weight.Value, 1f / duration.Value * Time.fixedDeltaTime);
+            currentWeight = Mathf.MoveTowards(currentWeight, weight.Value, 1f / duration.Value * DeltaTime);
             ik.Value.GetIKSolver().SetIKPositionWeight(currentWeight);
 
             if (currentWeight == weight.Value)
